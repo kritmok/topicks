@@ -1,0 +1,592 @@
+[
+ {
+   "name": "[Moderna]",
+   "posts_sum": 39,
+   "total_view": 249764,
+   "total_comment": 46,
+   "total_like": 27,
+   "total_engagement_rate": 0.029,
+   "market_attitude": 5,
+   "overall_score": 251
+ },
+ {
+   "name": "[GCL-POLY ENERGY]",
+   "posts_sum": 14,
+   "total_view": 104271,
+   "total_comment": 25,
+   "total_like": 23,
+   "total_engagement_rate": 0.046,
+   "market_attitude": 5,
+   "overall_score": 102
+ },
+ {
+   "name": "[Tesla]",
+   "posts_sum": 14,
+   "total_view": 222112,
+   "total_comment": 15,
+   "total_like": 32,
+   "total_engagement_rate": 0.021,
+   "market_attitude": 4,
+   "overall_score": 67
+ },
+ {
+   "name": "[AMC Entertainment]",
+   "posts_sum": 14,
+   "total_view": 138725,
+   "total_comment": 33,
+   "total_like": 63,
+   "total_engagement_rate": 0.069,
+   "market_attitude": 2,
+   "overall_score": 47
+ },
+ {
+   "name": "[Pioneer Power Solutions]",
+   "posts_sum": 12,
+   "total_view": 100158,
+   "total_comment": 17,
+   "total_like": 12,
+   "total_engagement_rate": 0.028,
+   "market_attitude": 3,
+   "overall_score": 46
+ },
+ {
+   "name": "[Apple]",
+   "posts_sum": 4,
+   "total_view": 572209,
+   "total_comment": 8,
+   "total_like": 4,
+   "total_engagement_rate": 0.002,
+   "market_attitude": 8,
+   "overall_score": 32
+ },
+ {
+   "name": "[ANE]",
+   "posts_sum": 11,
+   "total_view": 28566,
+   "total_comment": 0,
+   "total_like": 0,
+   "total_engagement_rate": 0,
+   "market_attitude": 2,
+   "overall_score": 22
+ },
+ {
+   "name": "[Longeveron]",
+   "posts_sum": 7,
+   "total_view": 47190,
+   "total_comment": 11,
+   "total_like": 9,
+   "total_engagement_rate": 0.042,
+   "market_attitude": 2,
+   "overall_score": 19
+ },
+ {
+   "name": "[Boqii]",
+   "posts_sum": 3,
+   "total_view": 20869,
+   "total_comment": 4,
+   "total_like": 0,
+   "total_engagement_rate": 0.019,
+   "market_attitude": 5,
+   "overall_score": 17
+ },
+ {
+   "name": "[Ocugen]",
+   "posts_sum": 6,
+   "total_view": 53066,
+   "total_comment": 8,
+   "total_like": 9,
+   "total_engagement_rate": 0.032,
+   "market_attitude": 2,
+   "overall_score": 15
+ },
+ {
+   "name": "[EVERG VEHICLE]",
+   "posts_sum": 9,
+   "total_view": 69891,
+   "total_comment": 31,
+   "total_like": 12,
+   "total_engagement_rate": 0.061,
+   "market_attitude": 1,
+   "overall_score": 14
+ },
+ {
+   "name": "[CHINA GAS HOLD]",
+   "posts_sum": 3,
+   "total_view": 32510,
+   "total_comment": 6,
+   "total_like": 2,
+   "total_engagement_rate": 0.024,
+   "market_attitude": 4,
+   "overall_score": 14
+ },
+ {
+   "name": "[Advanced Micro Devices]",
+   "posts_sum": 4,
+   "total_view": 64807,
+   "total_comment": 8,
+   "total_like": 2,
+   "total_engagement_rate": 0.015,
+   "market_attitude": 3,
+   "overall_score": 13
+ },
+ {
+   "name": "[TENCENT]",
+   "posts_sum": 10,
+   "total_view": 296028,
+   "total_comment": 9,
+   "total_like": 7,
+   "total_engagement_rate": 0.005,
+   "market_attitude": 1,
+   "overall_score": 10
+ },
+ {
+   "name": "[Meituan-W]",
+   "posts_sum": 4,
+   "total_view": 59516,
+   "total_comment": 11,
+   "total_like": 6,
+   "total_engagement_rate": 0.028,
+   "market_attitude": 2,
+   "overall_score": 10
+ },
+ {
+   "name": "[NVIDIA]",
+   "posts_sum": 7,
+   "total_view": 100824,
+   "total_comment": 21,
+   "total_like": 17,
+   "total_engagement_rate": 0.037,
+   "market_attitude": 1,
+   "overall_score": 9
+ },
+ {
+   "name": "[XIAOMI-W]",
+   "posts_sum": 4,
+   "total_view": 69002,
+   "total_comment": 4,
+   "total_like": 7,
+   "total_engagement_rate": 0.015,
+   "market_attitude": 2,
+   "overall_score": 9
+ },
+ {
+   "name": "[Union Medical Healthcare Limite]",
+   "posts_sum": 4,
+   "total_view": 25587,
+   "total_comment": 2,
+   "total_like": 1,
+   "total_engagement_rate": 0.011,
+   "market_attitude": 2,
+   "overall_score": 8
+ },
+ {
+   "name": "[COSCO SHIP HOLD]",
+   "posts_sum": 5,
+   "total_view": 54557,
+   "total_comment": 15,
+   "total_like": 8,
+   "total_engagement_rate": 0.042,
+   "market_attitude": 1,
+   "overall_score": 7
+ },
+ {
+   "name": "[Roblox]",
+   "posts_sum": 3,
+   "total_view": 69956,
+   "total_comment": 2,
+   "total_like": 2,
+   "total_engagement_rate": 0.005,
+   "market_attitude": 2,
+   "overall_score": 6
+ },
+ {
+   "name": "[AGM Group]",
+   "posts_sum": 2,
+   "total_view": 338,
+   "total_comment": 0,
+   "total_like": 0,
+   "total_engagement_rate": 0,
+   "market_attitude": 3,
+   "overall_score": 6
+ },
+ {
+   "name": "[Yalla]",
+   "posts_sum": 2,
+   "total_view": 15512,
+   "total_comment": 0,
+   "total_like": 0,
+   "total_engagement_rate": 0,
+   "market_attitude": 3,
+   "overall_score": 6
+ },
+ {
+   "name": "[Pasithea Therapeutics]",
+   "posts_sum": 5,
+   "total_view": 51742,
+   "total_comment": 14,
+   "total_like": 2,
+   "total_engagement_rate": 0.03,
+   "market_attitude": 1,
+   "overall_score": 6
+ },
+ {
+   "name": "[Digital World Acquisition Corp]",
+   "posts_sum": 5,
+   "total_view": 72587,
+   "total_comment": 16,
+   "total_like": 4,
+   "total_engagement_rate": 0.027,
+   "market_attitude": 1,
+   "overall_score": 6
+ },
+ {
+   "name": "[Dow Jones Industrial Average]",
+   "posts_sum": 3,
+   "total_view": 202125,
+   "total_comment": 1,
+   "total_like": 1,
+   "total_engagement_rate": 0,
+   "market_attitude": 2,
+   "overall_score": 6
+ },
+ {
+   "name": "[Petros Pharmaceuticals]",
+   "posts_sum": 5,
+   "total_view": 62985,
+   "total_comment": 2,
+   "total_like": 4,
+   "total_engagement_rate": 0.009,
+   "market_attitude": 1,
+   "overall_score": 5
+ },
+ {
+   "name": "[Altimeter Growth Corp]",
+   "posts_sum": 2,
+   "total_view": 35152,
+   "total_comment": 11,
+   "total_like": 4,
+   "total_engagement_rate": 0.042,
+   "market_attitude": 2,
+   "overall_score": 5
+ },
+ {
+   "name": "[Erytech Pharma]",
+   "posts_sum": 4,
+   "total_view": 39053,
+   "total_comment": 11,
+   "total_like": 4,
+   "total_engagement_rate": 0.038,
+   "market_attitude": 1,
+   "overall_score": 5
+ },
+ {
+   "name": "[Tredegar]",
+   "posts_sum": 1,
+   "total_view": 240,
+   "total_comment": 0,
+   "total_like": 1,
+   "total_engagement_rate": 0.416,
+   "market_attitude": 1,
+   "overall_score": 5
+ },
+ {
+   "name": "[Kingsoft Cloud]",
+   "posts_sum": 1,
+   "total_view": 3955,
+   "total_comment": 0,
+   "total_like": 0,
+   "total_engagement_rate": 0,
+   "market_attitude": 4,
+   "overall_score": 4
+ },
+ {
+   "name": "[Upwork]",
+   "posts_sum": 1,
+   "total_view": 1631,
+   "total_comment": 3,
+   "total_like": 2,
+   "total_engagement_rate": 0.306,
+   "market_attitude": 1,
+   "overall_score": 4
+ },
+ {
+   "name": "[Diffusion Pharmaceuticals]",
+   "posts_sum": 2,
+   "total_view": 4738,
+   "total_comment": 4,
+   "total_like": 0,
+   "total_engagement_rate": 0.084,
+   "market_attitude": 1,
+   "overall_score": 3
+ },
+ {
+   "name": "[MTR CORPORATION]",
+   "posts_sum": 2,
+   "total_view": 13423,
+   "total_comment": 3,
+   "total_like": 10,
+   "total_engagement_rate": 0.096,
+   "market_attitude": 1,
+   "overall_score": 3
+ },
+ {
+   "name": "[GOODBABY INTL]",
+   "posts_sum": 1,
+   "total_view": 1743,
+   "total_comment": 0,
+   "total_like": 1,
+   "total_engagement_rate": 0.057,
+   "market_attitude": 2,
+   "overall_score": 3
+ },
+ {
+   "name": "[Meten]",
+   "posts_sum": 2,
+   "total_view": 6634,
+   "total_comment": 1,
+   "total_like": 3,
+   "total_engagement_rate": 0.06,
+   "market_attitude": 1,
+   "overall_score": 3
+ },
+ {
+   "name": "[Naked Brand]",
+   "posts_sum": 3,
+   "total_view": 16842,
+   "total_comment": 0,
+   "total_like": 1,
+   "total_engagement_rate": 0.005,
+   "market_attitude": 1,
+   "overall_score": 3
+ },
+ {
+   "name": "[JD.com]",
+   "posts_sum": 2,
+   "total_view": 39040,
+   "total_comment": 0,
+   "total_like": 0,
+   "total_engagement_rate": 0,
+   "market_attitude": 1,
+   "overall_score": 2
+ },
+ {
+   "name": "[GEELY AUTO]",
+   "posts_sum": 2,
+   "total_view": 37237,
+   "total_comment": 1,
+   "total_like": 4,
+   "total_engagement_rate": 0.013,
+   "market_attitude": 1,
+   "overall_score": 2
+ },
+ {
+   "name": "[Wejo Group]",
+   "posts_sum": 1,
+   "total_view": 2752,
+   "total_comment": 1,
+   "total_like": 2,
+   "total_engagement_rate": 0.109,
+   "market_attitude": 1,
+   "overall_score": 2
+ },
+ {
+   "name": "[NAGACORP]",
+   "posts_sum": 1,
+   "total_view": 3802,
+   "total_comment": 2,
+   "total_like": 2,
+   "total_engagement_rate": 0.105,
+   "market_attitude": 1,
+   "overall_score": 2
+ },
+ {
+   "name": "[Occidental Petroleum]",
+   "posts_sum": 2,
+   "total_view": 17269,
+   "total_comment": 5,
+   "total_like": 0,
+   "total_engagement_rate": 0.028,
+   "market_attitude": 1,
+   "overall_score": 2
+ },
+ {
+   "name": "[Daqo New Energy]",
+   "posts_sum": 2,
+   "total_view": 12501,
+   "total_comment": 0,
+   "total_like": 1,
+   "total_engagement_rate": 0.007,
+   "market_attitude": 1,
+   "overall_score": 2
+ },
+ {
+   "name": "[ALPHAMAB-B]",
+   "posts_sum": 1,
+   "total_view": 2811,
+   "total_comment": 4,
+   "total_like": 0,
+   "total_engagement_rate": 0.142,
+   "market_attitude": 1,
+   "overall_score": 2
+ },
+ {
+   "name": "[PayPal,Square]",
+   "posts_sum": 1,
+   "total_view": 57304,
+   "total_comment": 4,
+   "total_like": 4,
+   "total_engagement_rate": 0.013,
+   "market_attitude": 1,
+   "overall_score": 1
+ },
+ {
+   "name": "[Astra Space]",
+   "posts_sum": 1,
+   "total_view": 11563,
+   "total_comment": 0,
+   "total_like": 4,
+   "total_engagement_rate": 0.034,
+   "market_attitude": 1,
+   "overall_score": 1
+ },
+ {
+   "name": "[XIABUXIABU]",
+   "posts_sum": 1,
+   "total_view": 5908,
+   "total_comment": 0,
+   "total_like": 0,
+   "total_engagement_rate": 0,
+   "market_attitude": 1,
+   "overall_score": 1
+ },
+ {
+   "name": "[Link Real Estate Investment Trust]",
+   "posts_sum": 1,
+   "total_view": 16215,
+   "total_comment": 1,
+   "total_like": 1,
+   "total_engagement_rate": 0.012,
+   "market_attitude": 1,
+   "overall_score": 1
+ },
+ {
+   "name": "[Guangzhou Automobile Group]",
+   "posts_sum": 1,
+   "total_view": 17885,
+   "total_comment": 0,
+   "total_like": 0,
+   "total_engagement_rate": 0,
+   "market_attitude": 1,
+   "overall_score": 1
+ },
+ {
+   "name": "[Veken Technology.,Ltd.]",
+   "posts_sum": 1,
+   "total_view": 271,
+   "total_comment": 0,
+   "total_like": 0,
+   "total_engagement_rate": 0,
+   "market_attitude": 1,
+   "overall_score": 1
+ },
+ {
+   "name": "[Asymchem Laboratories]",
+   "posts_sum": 1,
+   "total_view": 8241,
+   "total_comment": 0,
+   "total_like": 0,
+   "total_engagement_rate": 0,
+   "market_attitude": 1,
+   "overall_score": 1
+ },
+ {
+   "name": "[Athersys]",
+   "posts_sum": 1,
+   "total_view": 2668,
+   "total_comment": 1,
+   "total_like": 1,
+   "total_engagement_rate": 0.074,
+   "market_attitude": 1,
+   "overall_score": 1
+ },
+ {
+   "name": "[Zoom Video Communications]",
+   "posts_sum": 1,
+   "total_view": 20053,
+   "total_comment": 0,
+   "total_like": 0,
+   "total_engagement_rate": 0,
+   "market_attitude": 1,
+   "overall_score": 1
+ },
+ {
+   "name": "[AeroClean Technologies]",
+   "posts_sum": 1,
+   "total_view": 7976,
+   "total_comment": 0,
+   "total_like": 0,
+   "total_engagement_rate": 0,
+   "market_attitude": 1,
+   "overall_score": 1
+ },
+ {
+   "name": "[GLOBAL NEW MAT]",
+   "posts_sum": 1,
+   "total_view": 13459,
+   "total_comment": 1,
+   "total_like": 0,
+   "total_engagement_rate": 0.007,
+   "market_attitude": 1,
+   "overall_score": 1
+ },
+ {
+   "name": "[SKYWORTH GROUP]",
+   "posts_sum": 1,
+   "total_view": 14963,
+   "total_comment": 0,
+   "total_like": 4,
+   "total_engagement_rate": 0.026,
+   "market_attitude": 1,
+   "overall_score": 1
+ },
+ {
+   "name": "[AUSTAR]",
+   "posts_sum": 1,
+   "total_view": 1923,
+   "total_comment": 0,
+   "total_like": 0,
+   "total_engagement_rate": 0,
+   "market_attitude": 1,
+   "overall_score": 1
+ },
+ {
+   "name": "[SYNERTONE]",
+   "posts_sum": 1,
+   "total_view": 436,
+   "total_comment": 0,
+   "total_like": 0,
+   "total_engagement_rate": 0,
+   "market_attitude": 1,
+   "overall_score": 1
+ },
+ {
+   "name": "[Ocuphire Pharma]",
+   "posts_sum": 1,
+   "total_view": 2243,
+   "total_comment": 0,
+   "total_like": 0,
+   "total_engagement_rate": 0,
+   "market_attitude": 1,
+   "overall_score": 1
+ },
+ {
+   "name": "[WULING MOTORS]",
+   "posts_sum": 1,
+   "total_view": 11677,
+   "total_comment": 1,
+   "total_like": 1,
+   "total_engagement_rate": 0.017,
+   "market_attitude": 1,
+   "overall_score": 1
+ }
+]
