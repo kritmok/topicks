@@ -1,0 +1,101 @@
+/* .sign-in {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+} */
+
+.sign-in-section {
+  font-family: "PT Sans", sans-serif;
+  color: #fff;
+  background-color: white;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+}
+
+.sign-in-container {
+  background-color: #091353;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.sign-in-msg {
+  text-align: center;
+}
+
+.sign-in-button {
+  display: block;
+  width: 100%;
+  margin: 5% 0;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-out;
+  padding: 12px 26px;
+  font-size: 20px;
+  border-radius: 2rem;
+  text-decoration: none;
+}
+
+.sign-in-link {
+  text-decoration: none;
+}
+
+.sign-in-button:hover {
+  background: green;
+  color: #242424;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+input {
+  color: #091353;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.sign-in-msg,
+.sign-in-email-text,
+.sign-in-email,
+.sign-in-password-text,
+.sign-in-password {
+  margin: 2% 0;
+}
+
+/* .hero-btn {
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-out;
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+
+
+/* .hero-btn {
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-out;
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.hero-btn:hover {
+  background: #fff;
+  color: #242424;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+} */
