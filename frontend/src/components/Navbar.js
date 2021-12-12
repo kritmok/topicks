@@ -1,13 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
-
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
 
 
   return (
@@ -18,9 +14,6 @@ function Navbar() {
             <i className="fab fa-pied-piper logo-img" />
             Topicks 
           </Link>
-          <div className="menu-icon" >
-            <i className={click ? "fas fa-times" : "fas fa-bars"} />
-          </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link to="/" className="nav-links">

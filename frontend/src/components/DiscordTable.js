@@ -1,10 +1,8 @@
-import React, { useState } from "react";
-import ReactDOM from "react-dom";
-import Button from "@mui/material/Button";
+import React from "react";
 import "./FutuTable.css";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
-import TableCell from "@mui/material/TableCell";
+import TableCell, { tableCellClasses } from '@mui/material/TableCell';
 import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
@@ -12,7 +10,33 @@ import Paper from "@mui/material/Paper";
 import { makeStyles } from "@mui/styles";
 import TablePagination from "@mui/material/TablePagination";
 import TableFooter from "@mui/material/TableFooter" ;
+import { styled } from '@mui/material/styles';
 let data = require("./data/Discord_final_output.json");
+
+for(var i = 0 ; i < data.length ; i++){
+  data[i].rank = i+1 ;
+}
+
+const StyledTableCell = styled(TableCell)(({ theme }) => ({
+  [`&.${tableCellClasses.head}`]: {
+    backgroundColor: "#091353",
+    color: theme.palette.common.white,
+  },
+  [`&.${tableCellClasses.body}`]: {
+    fontSize: 14,
+  },
+}));
+
+const StyledTableRow = styled(TableRow)(({ theme }) => ({
+  '&:nth-of-type(odd)': {
+    backgroundColor: theme.palette.action.hover,
+  },
+  // hide last border
+  '&:last-child td, &:last-child th': {
+    border: 0,
+  },
+}));
+
 
 const useStyles = makeStyles((theme) => ({
   tableContainer: {
@@ -42,25 +66,25 @@ function DiscordTable() {
         <Table sx={{ minWidth: 650 }} aria-label="simple table">
           <TableHead>
             <TableRow>
-              <TableCell className={classes.tableHeaderCell}>Name</TableCell>
-              <TableCell className={classes.tableHeaderCell} align="right">
+              <StyledTableCell className={classes.tableHeaderCell}>Rank</StyledTableCell>
+              <StyledTableCell className={classes.tableHeaderCell} align="right">
                 Number of posts
-              </TableCell>
+              </StyledTableCell>
             </TableRow>
           </TableHead>
           <TableBody>
             {data
               .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
               .map((row) => (
-                <TableRow
+                <StyledTableRow
                   key={row.name}
                   sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
                 >
                   <TableCell component="th" scope="row">
-                    {row.project_name}
+                    {row.rank} - {row.project_name}
                   </TableCell>
                   <TableCell align="right">{row.posts_num}</TableCell>
-                </TableRow>
+                </StyledTableRow>
               ))}
           </TableBody>
           <TableFooter>

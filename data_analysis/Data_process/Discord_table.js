@@ -31,8 +31,6 @@ for(var i = 0 ; i < Discord_table.length ; i++ ){
     Discord_table[i].posts_num = counter;
 }
 
-// console.log(Discord_table);
-
 //created a list where no post is duplicating 
 var unique = [...new Map(Discord_table.map(item => [item['author'], item])).values()]
 

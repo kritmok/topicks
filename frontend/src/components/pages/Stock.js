@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import FutuTable from "../FutuTable";
 import StockBarChart from "../StockBarChart";
 import StockPieChart from "../StockPieChart";

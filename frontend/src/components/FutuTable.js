@@ -1,18 +1,43 @@
-import React, { useState } from "react";
-import ReactDOM from "react-dom";
-import Button from "@mui/material/Button";
+import React from "react";
 import "./FutuTable.css";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
-import TableCell from "@mui/material/TableCell";
+import TableCell, { tableCellClasses } from '@mui/material/TableCell';
 import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { makeStyles } from "@mui/styles";
+import { styled } from '@mui/material/styles';
 import TablePagination from "@mui/material/TablePagination";
 import TableFooter from "@mui/material/TableFooter" ;
 let data = require("./data/Futu_final_output.json");
+
+for( var i = 0 ; i < data.length ; i ++){
+  data[i].rank = i+1 ;
+}
+
+const StyledTableCell = styled(TableCell)(({ theme }) => ({
+  [`&.${tableCellClasses.head}`]: {
+    backgroundColor: "#091353",
+    color: theme.palette.common.white,
+  },
+  [`&.${tableCellClasses.body}`]: {
+    fontSize: 14,
+  },
+}));
+
+const StyledTableRow = styled(TableRow)(({ theme }) => ({
+  '&:nth-of-type(odd)': {
+    backgroundColor: theme.palette.action.hover,
+  },
+  // hide last border
+  '&:last-child td, &:last-child th': {
+    border: 0,
+  },
+}));
+
+
 
 const useStyles = makeStyles((theme) => ({
   tableContainer: {
@@ -42,31 +67,31 @@ function FutuTable() {
         <Table sx={{ minWidth: 650 }} aria-label="simple table">
           <TableHead>
             <TableRow className="headerText">
-              <TableCell className="headerCell">Name</TableCell>
-              <TableCell className="headerCell" align="right">
+              <StyledTableCell className="headerCell">Rank</StyledTableCell>
+              <StyledTableCell className="headerCell" align="right">
                 Number of posts
-              </TableCell>
-              <TableCell className="headerCell" align="right">
+              </StyledTableCell>
+              <StyledTableCell className="headerCell" align="right">
                 Total Engagement rate
-              </TableCell>
-              <TableCell className="headerCell" align="right">
+              </StyledTableCell>
+              <StyledTableCell className="headerCell" align="right">
                 Market Attitude
-              </TableCell>
-              <TableCell className="headerCell" align="right">
+              </StyledTableCell>
+              <StyledTableCell className="headerCell" align="right">
                 Overall Score
-              </TableCell>
+              </StyledTableCell>
             </TableRow>
           </TableHead>
           <TableBody>
             {data
               .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
               .map((row) => (
-                <TableRow
+                <StyledTableRow
                   key={row.name}
                   sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
                 >
                   <TableCell component="th" scope="row">
-                    {row.name}
+                    {row.rank} - {row.name}
                   </TableCell>
                   <TableCell align="right">{row.posts_sum}</TableCell>
                   <TableCell align="right">
@@ -74,7 +99,7 @@ function FutuTable() {
                   </TableCell>
                   <TableCell align="right">{row.market_attitude}</TableCell>
                   <TableCell align="right">{row.overall_score}</TableCell>
-                </TableRow>
+                </StyledTableRow>
               ))}
           </TableBody>
           <TableFooter>
